@@ -17,6 +17,11 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 * Web3.js v1.5.3
 
 
+## Rinkeby contract address
+
+0x5e8819C35fC32560D587BD69c146ee20347655cE
+
+
 ## Authors
 
 Mathijs Haerden
