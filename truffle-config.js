@@ -23,7 +23,7 @@
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
-var mnemonic = "speak diamond fashion fork cry clutch cute ship welcome able episode kiwi";
+var mnemonic = "";
 var HDWalletProvider = require("truffle-hdwallet-provider");
 module.exports = {
   /**
@@ -56,7 +56,7 @@ module.exports = {
 
     rinkeby: {
       provider: function() { 
-       return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/3931d4e1bb784f5e898780a51bc846a8");
+       return new HDWalletProvider(mnemonic, "");
       },
       network_id: 4,
       gas: 4500000,
